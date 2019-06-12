@@ -1,0 +1,7 @@
+Node.js is single-threaded - from a developer's point of view. 
+It means that you don't have to deal with threads and synchronizing them, Node.js abstracts this complexity away. 
+Everything except your code is executing in parallel.
+
+
+JSCS
+Javascript code style
