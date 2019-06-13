@@ -9,7 +9,7 @@ const env = require('./env/environment');
 mongoose.Promise = global.Promise;
 //const mongoUri = `mongodb://${env.accountName}:${env.key}@${env.accountName}.documents.azure.com:${env.port}/${env.databaseName}?ssl=true`;
 
-const mongoUri = `mongodb://hub.midax.co.uk:27017/Heroes`;
+const mongoUri = ``;
 // Retrieve
 var MongoClient = require('mongodb').MongoClient;
 
