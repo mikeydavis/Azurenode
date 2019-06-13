@@ -10,7 +10,7 @@ const env = require('./env/environment');
 // eslint-disable-next-line max-len
 //const mongoUri = `mongodb://${env.accountName}:${env.key}@${env.accountName}.documents.azure.com:${env.port}/${env.databaseName}?ssl=true`;
 
-const mongoUri = `mongodb://hub.midax.co.uk:27017/Heroes`;
+const mongoUri = `mongodb://localhost:27017/Heroes`;
 
 var db = mongoose.connection;
 
